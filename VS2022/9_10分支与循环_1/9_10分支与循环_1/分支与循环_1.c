@@ -49,21 +49,24 @@
 
 
 //判断年纪
-int main()
-{
-	int age = 0;
-	//输入
-	scanf("%d", &age);
-	//判断与输出
-	if (age < 18)// <18
-		printf("少年\n");
-    else if (age <= 44)// 18-44
-		printf("青年\n");
-	else if (age <= 59)// 45-59
-		printf("中年\n");
-	else if (age <= 89)// 60-89
-		printf("老年\n");
-	else
-		printf("老寿星\n");
-	return 0;
-}
+//int main()
+//{
+//	int age = 0;
+//	//输入
+//	scanf("%d", &age);
+//	//判断与输出
+//	if (age < 18)// <18
+//		printf("少年\n");
+//    else if (age <= 44)// 18-44
+//		printf("青年\n");
+//	else if (age <= 59)// 45-59
+//		printf("中年\n");
+//	else if (age <= 89)// 60-89
+//		printf("老年\n");
+//	else
+//		printf("老寿星\n");
+//	return 0;
+//}
+
+
+
