@@ -4,7 +4,7 @@
 int main()
 {
     int a , b = 0;
-    while (scanf("%d %d", &a, &b) != EOF)
+     while (scanf("%d %d", &a, &b) != EOF)
     {
         if (a == b)
         printf("%d = %d\n", a, b);
@@ -13,5 +13,6 @@ int main()
         else
         printf("%d < %d\n", a, b);
     }
+    
     return 0;
 }
