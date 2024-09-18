@@ -70,7 +70,7 @@ int main()
     int a = 0;
     int b = 0;
     scanf("%d %d", &a, &b);
-    int c = (a>b ? a : b);
+    int c = (a>b ? a : b); //三目运算符，若第一个表达式为真，则返回值第二个表达式；若为假，则返回值第三个表达式
     printf("c = %d", c);
     return 0;
 }
