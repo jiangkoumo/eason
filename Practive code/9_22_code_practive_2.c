@@ -22,7 +22,7 @@ void game()
     int count = 5;
     while (count)
     {
-        printf("还有%d次机会\n");
+        printf("还有%d次机会\n", count);
         printf("游戏开始，请猜数字：");
         scanf("%d", &guess);
         if (guess > r)

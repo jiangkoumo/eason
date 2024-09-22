@@ -44,7 +44,7 @@ int main()
         }
         if (a == 1)//a == 1即代表当前的num是素数
         {
-            printf("%d ", num);//打印当前已经判断为素数的num值
+        printf("%d ", num);//打印当前已经判断为素数的num值
         }
     }
     return 0;
