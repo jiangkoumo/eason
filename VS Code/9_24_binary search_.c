@@ -13,7 +13,7 @@ int main()
     int right = sz - 1;
     while (left <= right)
     {
-        int mid = (left + right) / 2;
+        int mid = left + (right - left) / 2;
 
         if (arr[mid] < k)
         {
@@ -31,7 +31,7 @@ int main()
     }
     if (left > right)
     {
-        printf("找不到");
+        printf("找不到这个数\n");
     }
     
 

@@ -11,7 +11,7 @@ int main()
 
     int left = 0; 
 
-    //strlen函数计算数组长度。数组长度减一就是最后一个元素的坐标
+    //strlen函数计算字符串长度或者字符数组长度。数组长度减一就是最后一个元素的坐标
     int right = strlen(arr1)-1;
 
     while (left <= right)
