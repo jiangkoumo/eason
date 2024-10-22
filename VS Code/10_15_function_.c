@@ -22,6 +22,8 @@
 
 
 //计算某年某月有多少天
+
+//判断是否是闰年
 int is_leap_year(int year)
 {
     if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
@@ -31,6 +33,7 @@ int is_leap_year(int year)
     return 0;
 }
 
+//计算某年某月有多少天
 int get_days_of_month(int year, int month)
 {
     int days[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
@@ -41,6 +44,8 @@ int get_days_of_month(int year, int month)
     }
     return day;
 }
+
+//主函数
 int main()
 {
     int year = 0;
