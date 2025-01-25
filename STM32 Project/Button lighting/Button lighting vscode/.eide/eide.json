@@ -1,0 +1,316 @@
+{
+  "name": "Button lighting",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "User",
+        "files": [
+          {
+            "path": "../Button lighting keil5/User/main.c"
+          },
+          {
+            "path": "../Button lighting keil5/User/stm32f10x_it.c"
+          },
+          {
+            "path": "../Button lighting keil5/User/system_stm32f10x.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "FWLIB",
+        "files": [
+          {
+            "path": "../Button lighting keil5/FWLIB/src/misc.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_adc.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_bkp.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_can.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_cec.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_crc.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_dac.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_dbgmcu.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_dma.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_exti.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_flash.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_fsmc.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_gpio.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_i2c.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_iwdg.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_pwr.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_rcc.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_rtc.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_sdio.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_spi.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_tim.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_usart.c"
+          },
+          {
+            "path": "../Button lighting keil5/FWLIB/src/stm32f10x_wwdg.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "CMSIS",
+        "files": [
+          {
+            "path": "../Button lighting keil5/CMSIS/core_cm3.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "STARTUP",
+        "files": [
+          {
+            "path": "../Button lighting keil5/CMSIS/startup/arm/startup_stm32f10x_hd.s"
+          },
+          {
+            "path": "../Button lighting keil5/CMSIS/startup/arm/startup_stm32f10x_ld.s"
+          },
+          {
+            "path": "../Button lighting keil5/CMSIS/startup/arm/startup_stm32f10x_md.s"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": ".pack/Keil/STM32F1xx_DFP.2.3.0",
+  "miscInfo": {
+    "uid": "7c107553b539ee217f4dcc85db78b721"
+  },
+  "targets": {
+    "STM32": {
+      "excludeList": [
+        "<virtual_root>/STARTUP/startup_stm32f10x_ld.s",
+        "<virtual_root>/STARTUP/startup_stm32f10x_md.s"
+      ],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x5000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x10000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "stm32f1x",
+        "interface": "cmsis-dap",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          ".",
+          "../Button lighting keil5/CMSIS",
+          "../Button lighting keil5/User",
+          "../Button lighting keil5/FWLIB/inc",
+          ".cmsis/include",
+          "../Button lighting keil5/RTE/_STM32"
+        ],
+        "libList": [],
+        "defineList": [
+          "USE_STDPERIPH_DRIVER",
+          "STM32F10X_MD"
+        ]
+      },
+      "builderOptions": {
+        "AC5": {
+          "version": 4,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [],
+          "global": {
+            "output-debug-info": "enable"
+          },
+          "c/cpp-compiler": {
+            "optimization": "level-0",
+            "one-elf-section-per-function": true,
+            "c99-mode": true,
+            "C_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "CXX_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "warnings": "all-warnings",
+            "gnu-extensions": true
+          },
+          "asm-compiler": {},
+          "linker": {
+            "output-format": "elf",
+            "ro-base": "0x08000000",
+            "rw-base": "0x20000000"
+          }
+        }
+      }
+    }
+  },
+  "version": "3.5"
+}
